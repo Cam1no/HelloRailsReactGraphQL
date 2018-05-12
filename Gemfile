@@ -24,6 +24,17 @@ group :development, :test do
   gem 'pry-byebug'
   gem 'pry-stack_explorer'
   gem 'hirb'
+
+  gem 'rspec-rails'
+  gem 'webmock'
+  gem 'timecop'
+  gem 'factory_bot_rails'
+  gem "database_cleaner"
+  gem 'vcr'
+  gem 'database_rewinder'
+  gem 'capybara'
+  gem 'selenium-webdriver'
+  gem 'simplecov', require: false
 end
 
 group :development do
