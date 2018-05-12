@@ -26,6 +26,7 @@ group :development, :test do
   gem 'hirb'
 
   gem 'rspec-rails'
+  gem 'faker'
   gem 'webmock'
   gem 'timecop'
   gem 'factory_bot_rails'

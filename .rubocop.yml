@@ -18,3 +18,10 @@ Style/AsciiComments:
 Style/PercentLiteralDelimiters:
   Enabled: false
 inherit_from: .rubocop_todo.yml
+Metrics/LineLength:
+  Max: 120
+  Exclude:
+    - 'spec/**/*'
+Metrics/BlockLength:
+  Exclude:
+    - 'spec/**/*'
